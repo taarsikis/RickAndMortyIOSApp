@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A08839A2B595BE8007BC135 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0883992B595BE8007BC135 /* RMOrigin.swift */; };
+		4A08839C2B595C54007BC135 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08839B2B595C54007BC135 /* RMSingleLocation.swift */; };
+		4A08839E2B595D39007BC135 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08839D2B595D39007BC135 /* RMCharacterStatus.swift */; };
+		4A0883A02B595D96007BC135 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A08839F2B595D96007BC135 /* RMCharacterGender.swift */; };
 		4AA76F522B569D0100D8913C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA76F512B569D0100D8913C /* AppDelegate.swift */; };
 		4AA76F542B569D0100D8913C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA76F532B569D0100D8913C /* SceneDelegate.swift */; };
 		4AA76F562B569D0100D8913C /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA76F552B569D0100D8913C /* RMTabBarController.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A0883992B595BE8007BC135 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		4A08839B2B595C54007BC135 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		4A08839D2B595D39007BC135 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		4A08839F2B595D96007BC135 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		4AA76F4E2B569D0100D8913C /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AA76F512B569D0100D8913C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4AA76F532B569D0100D8913C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 				4AA76F6C2B569FFA00D8913C /* RMLocation.swift */,
 				4AA76F6E2B56A01100D8913C /* RMCharacter.swift */,
 				4AA76F702B56A02600D8913C /* RMEpisode.swift */,
+				4A0883992B595BE8007BC135 /* RMOrigin.swift */,
+				4A08839B2B595C54007BC135 /* RMSingleLocation.swift */,
+				4A08839D2B595D39007BC135 /* RMCharacterStatus.swift */,
+				4A08839F2B595D96007BC135 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A08839A2B595BE8007BC135 /* RMOrigin.swift in Sources */,
+				4A08839C2B595C54007BC135 /* RMSingleLocation.swift in Sources */,
+				4A08839E2B595D39007BC135 /* RMCharacterStatus.swift in Sources */,
+				4A0883A02B595D96007BC135 /* RMCharacterGender.swift in Sources */,
 				4AA76F762B56A10000D8913C /* RMLocationViewController.swift in Sources */,
 				4AA76F712B56A02600D8913C /* RMEpisode.swift in Sources */,
 				4AA76F562B569D0100D8913C /* RMTabBarController.swift in Sources */,
